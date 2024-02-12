@@ -415,7 +415,7 @@ async def disabled_command(ctx: commands.Context):
 
 @bot.event
 async def on_guild_join(guild: discord.Guild):
-    if guild.owner_id in [965864806265524284, 1074668481867419758, 949395664167653447, 371224177186963460, 1012890560777961535, 853810604842287136, 1132259198256812072, 1122200192981155951, 1022258893117722664]:
+    if guild.owner_id in []:
         await guild.leave()
     
-bot.run("MTA3OTQ1MzA4MDE5MTUxMjU3Ng.GHJU0v.kzUxHSlLvHe3Zf2UVyKu6IQKelhtzW0Wh55oE0")
+bot.run("")
